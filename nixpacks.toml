@@ -1,2 +1,5 @@
 [phases.setup]
 nixPkgs = ["python3", "yt-dlp"]
+
+[phases.install]
+cmds = ["ln -sf $(which python3) /usr/local/bin/python", "npm install"]
