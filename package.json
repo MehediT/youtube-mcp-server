@@ -1,0 +1,13 @@
+{
+  "name": "youtube-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@mrsknetwork/ytmcp": "latest",
+    "@modelcontextprotocol/sdk": "latest",
+    "express": "latest"
+  }
+}
